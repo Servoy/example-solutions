@@ -1,0 +1,97 @@
+.demo-block
+{
+	
+	background-color: #b9dcff;
+	color: #0066cc;
+	font-weight: bold;
+	font-size: 40px;
+	height: 60px;
+	width: 100%;
+	margin: 10px;
+	text-align: center;
+	vertical-align: middle;
+	box-shadow: 5px 5px 8px #aaa;
+}
+.tabpanel-responsive
+{
+}
+.demo-block.orange
+{
+	background-color: #ffd0a2;
+	color: #cc6600;	
+}
+.demo-block.green
+{
+	background-color: #d0f0d5;
+	color: #008000;
+}
+.svy-listbox
+{
+	font-size: 16px;
+	transition: 1s;
+}
+.svy-listbox > option
+{
+	padding: 4px;
+}
+.font-icon
+{
+	color: #66c;
+	font-size: 22px;
+	text-align: center;
+	vertical-align: middle;
+	transition: 300ms;
+}
+.font-icon:HOVER
+{
+	color: #ff8000;
+	
+}
+
+/****************************
+ * EXTEND GLOBAL SELECTORS
+ */
+.svy-label.header
+{
+	font-weight: bold;
+	color: #0060a0;
+	padding-left: 15px;
+	font-size: larger;
+}
+.svy-label.frame
+{
+	border: 1px solid #d5d5d5;
+	background-color: #fafafa;
+}
+.svy-form.detail
+{
+	margin-top: 2px;
+}	
+*:FOCUS
+{
+	outline: none;
+}
+
+
+/**************************
+ * Style Tab panel tabs
+ */
+.nav-tabs
+{
+	border-bottom: 2px solid #fc8f00;
+	padding-left: 10px;
+}
+/* Pseudo class, selecting child elements of a certain type*/
+.nav-tabs > li
+{
+	margin-bottom: -2px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:FOCUS
+{
+	color: #444;
+	font-size: 11pt;
+	font-weight: bold;
+	border-color: #fc8f00;
+	border-bottom-color: #fff;
+	border-bottom-width: 2px;
+}
