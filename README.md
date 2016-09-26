@@ -1,4 +1,4 @@
-# example-solutions
+# Example Solutions
 Home for all Servoy example solutions
 
 Example Solutions is a repository containing general Servoy examples for the community.
