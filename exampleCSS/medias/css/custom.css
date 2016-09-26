@@ -1,0 +1,197 @@
+/* import animation css into main example */
+@IMPORT url("animation.css");
+@IMPORT url("../css/testGrid.css");
+
+/* ***************
+*  BASIC SELECTORS
+*  ***************/
+.svy-label.my-button
+{
+	border-radius: 4px; 	/** Here's how to get rounded borders */
+	
+	background-color: white;
+	color: #444;
+	font-size: 14px;  
+	cursor:pointer;
+	text-align: center;
+	margin: 6px;
+	border: #ccc 1px solid;
+}
+
+.svy-label.my-button:HOVER
+{
+	background-color: #eee;
+	color: #444;
+}
+
+.svy-label.primary
+{
+	color: white;
+	background-color: #0080c0;
+	font-weight: bold;
+}
+.svy-label.green
+{
+	color: white;
+	background-color: #008000;
+}
+.svy-label.red
+{
+	color: white;
+	background-color: #c60000;
+}
+
+/* ***************
+*  BOX SHADOW
+*  ***************/
+.box-shadow
+{
+	box-shadow: 3px 3px 10px #aaa;
+}
+.box-shadow:HOVER
+{
+	box-shadow: 10px 10px 10px #777; 	/* Darken the shadow on hover */
+}
+
+
+/* ***************
+*  TRANSITION SPEEDS
+*  ***************/
+.transition-medium
+{
+	transition: 300ms;
+}
+.transition-slow
+{
+	transition: 1500ms;
+}
+
+/* ***************
+*  BADGES AND SHAPES
+*  (This is inherited from Bootstrap CSS)
+*  ***************/
+.badge
+{
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	background-color: #0080c0;
+}
+.badge:HOVER
+{
+	background-color: #444;
+}
+.badge.warning
+{
+	background-color: #ff8000;
+}
+.badge.alerts
+{
+	background-color: #800000;
+}
+
+/** Make anything a circle */
+.circle
+{
+	border-radius: 50%;
+	text-align: center;
+}
+
+/* ****************************************
+*  Stylize the glyphicons and Font-Awesome
+*  ****************************************/
+.glyph-font
+{
+	font-size: 20px;
+	cursor: pointer;
+	color: #888;
+	text-align: center;
+}
+.glyph-font:HOVER
+{
+	color: #ff8000;
+}
+.glyph-font.large
+{
+	font-size: 36px;
+}
+.glyph-font.inverted
+{
+	color: #fff;
+	background-color: #888;
+}
+.glyph-font.inverted:HOVER
+{
+	background-color: #00b300;
+}
+.glyph-font.toggled
+{
+	background-color: #009d00;
+}
+.glyph-font.toggled:HOVER
+{
+	background-color: #008000;
+}
+
+/* ****************************************
+*  MORE TRANSITIONS
+*  ****************************************/
+.dither
+{
+	opacity: .5;
+}
+.flip
+{
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+.rotate
+{
+	-ms-transform: rotate(540deg); /* IE 9 */
+    -webkit-transform: rotate(540deg); /* Chrome, Safari, Opera */
+    transform: rotate(540deg);
+}
+
+
+
+.notification
+{
+	border-radius: 8px;
+	cursor: pointer;
+	padding: 8px;
+	text-align: center;
+}
+.notification:HOVER
+{
+	background-color: #eee;
+	text-decoration: underline;
+}
+
+
+.no-border
+{
+	border-style: none;
+}
+
+
+.svy-label.callout {
+
+	background-color: #ffe3e3;
+	color: #f00;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 20px #999;
+	border: 1px solid #f00;
+	transition: 750ms;
+	opacity: 0;
+	z-index: 100;
+}
+.svy-label.callout.visible
+{
+	opacity: .95;
+	transition: 750ms;
+}

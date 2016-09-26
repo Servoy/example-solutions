@@ -1,0 +1,162 @@
+
+/**
+ * IMPORT CUSTOM CSS
+ */
+@IMPORT url("custom.css");
+
+
+/**
+ * STYLE THE MAIN PAGE
+ */
+body
+{
+	background-color: #444;
+	font-family: "Helvetica Neue", "Sans Serif", Arial;
+}
+
+/****************************
+ * DEFAULT SERVOY SELECTORS
+ */
+
+.svy-label
+{
+	color: #444;
+}
+.svy-check
+{
+	font-weight: bold;
+	color: #666;
+	cursor: pointer;
+}
+.svy-form
+{
+	border-style: none; 
+}
+.svy-radiogroup
+{
+	background-color: #fff;
+    padding: 12px;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+}
+.svy-check-radio
+{
+	padding: 4px;
+	color: #0060a0;
+	cursor: pointer;
+}
+.svy-textarea
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+.svy-combobox
+{
+	
+}
+.svy-button
+{
+
+}
+.svy-field
+{
+	
+}
+
+
+
+/****************************************************************
+ * SELECTORS FOR CHANGE OF STATE, i.e. focus | hover | diabled
+ */
+
+.svy-field:FOCUS, .svy-textarea:FOCUS
+{
+	background-color: #fffeee;
+	font-weight: bold;
+}
+.svy-field:HOVER, .svy-textarea:HOVER
+{
+	background-color: #fafaff;
+}
+
+.svy-check:HOVER
+{
+	background-color: #eee;
+}
+
+.svy-check-radio:HOVER
+{
+	color: #ff8000;
+}
+/* Override inherited styles from Servoy/Bootstrap, i.e. disbaled fields */
+.form-control[disabled]
+{
+	color: #d66;
+}
+*:FOCUS
+ {
+ 	/* remove outline on focused elements */
+ 	outline: none;
+ }
+
+
+/****************************
+ * EXTEND GLOBAL SELECTORS
+ */
+.svy-label.header
+{
+	font-weight: bold;
+	color: #0060a0;
+	padding-left: 15px;
+	font-size: larger;
+}
+.svy-label.frame
+{
+	border: 1px solid #d5d5d5;
+	background-color: #fafafa;
+}
+.svy-form.detail
+{
+	margin-top: 2px;
+}	
+
+
+/**************************
+ * Style Tab panel tabs
+ */
+.nav-tabs
+{
+	border-bottom: 2px solid #fc8f00;
+	padding-left: 10px;
+}
+/* Pseudo class, selecting child elements of a certain type*/
+.nav-tabs > li
+{
+	margin-bottom: -2px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:FOCUS
+{
+	color: #444;
+	font-size: 11pt;
+	font-weight: bold;
+	border-color: #fc8f00;
+	border-bottom-color: #fff;
+	border-bottom-width: 2px;
+}
+
+/**
+ * Style class for body alignment auto-center
+ */
+ .body_main
+{
+	width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: #fff;
+}
+
+.invalid
+{
+	border: 2px solid #ff0000;
+	color: #f00;
+}
