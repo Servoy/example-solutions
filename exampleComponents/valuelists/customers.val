@@ -1,0 +1,11 @@
+addEmptyValue:1,
+dataProviderID1:"companyname",
+dataProviderID2:"customerid",
+dataSource:"db:/example_data/customers",
+name:"customers",
+returnDataProviders:2,
+showDataProviders:1,
+sortOptions:"companyname asc",
+typeid:34,
+uuid:"E2F3F799-CB74-4C80-88C9-9F6D66512716",
+valueListType:1

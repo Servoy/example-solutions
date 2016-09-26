@@ -1,0 +1,64 @@
+.table
+{
+	color: #444;
+	border-style: solid;
+	border-width: 0px 1px 1px 1px;
+	border-color: #eee;
+}
+.table-cell
+{
+	cursor: pointer;
+	border-right: 1px solid #eee;
+	padding-left: 4px;
+}
+.tabel-cell-patriotic
+{
+	color: #f00;
+	font-weight: bold;
+}
+.table-cell:HOVER
+{
+	background-color: #eef;
+}
+.table-servoyextra-selected
+{
+	background-color: #EEE;
+	font-weight: bold;
+	cursor: pointer;
+	-webkit-transition: background-color 2s;
+    transition: background-color 25s;
+}
+
+.table-header
+{
+
+	color: #fff;
+	font-weight: bold;
+	padding-left: 4px;
+	cursor: pointer;
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	border-color: #eee;
+	background-color: #666;
+	-webkit-transition: width .25s, height .25s, background-color .25s, -webkit-transform .25s;
+    transition: width .25s, height .25s, background-color .25s, transform .25s;
+}
+.table-header-selected
+{
+	background-color: #888;
+	color: white;
+	cursor: pointer;
+}
+.table-hover
+{
+	border: solid #eee 1px;
+	
+}
+.table-header:HOVER {
+	background-color: #aaa;	
+}
+tr {
+	width: 100%;
+	display: inline-table;
+	height:40px;                // <-- the rows height 
+}
