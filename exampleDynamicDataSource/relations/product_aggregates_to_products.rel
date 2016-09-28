@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/example_data/products",
+items:[
+{foreignColumnName:"productid",primaryDataProviderID:"productid",typeid:23,uuid:"8EA6267E-0057-462B-8816-BFA9E4B23D77"}
+],
+joinType:1,
+name:"product_aggregates_to_products",
+primaryDataSource:"mem:product_aggregates",
+typeid:22,
+uuid:"391DF1C4-AA05-4AC9-B386-79C0B5D0E1E3"
