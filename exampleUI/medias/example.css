@@ -1,0 +1,13 @@
+.svy-label.banner-orange
+{
+	border: solid #ff8000;
+	border-width: 0px 0px 2px 0px;
+}
+
+.svy-label.banner
+{
+	font-family: sans-serif Arial "Helvetica Neue";
+	font-size: 30px;
+	font-style: oblique;
+	font-stretch: wider;
+}
