@@ -67,7 +67,7 @@ function initNav(){
 			id: 'shippers', 
 			text:'Shippers', 
 			iconStyleClass:'fa fa-plane svy-sidenav-font-icon',
-			data:{formName:'shippers'}
+			data:{}
 		}
 	];
 	elements.nav.setRootMenuItems(items);

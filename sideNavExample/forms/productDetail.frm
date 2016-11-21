@@ -201,7 +201,7 @@ displaysTags:true,
 location:"20,310",
 size:"590,30",
 styleClass:"label_header_2",
-text:"Orders",
+text:"Orders (%%products_to_order_details.maxRecordIndex%%)",
 typeid:7,
 uuid:"FF130EDB-7937-4365-BE7C-8578FB7C6FDB"
 }

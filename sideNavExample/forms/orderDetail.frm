@@ -36,6 +36,16 @@ typeid:7,
 uuid:"2E9EFCD1-6D2C-4F9E-8C1D-C13042A39AA7"
 },
 {
+anchors:14,
+displaysTags:true,
+location:"20,440",
+size:"590,30",
+styleClass:"label_header_3",
+text:"Order Total",
+typeid:7,
+uuid:"32CF868D-2DE5-4300-9260-1AF0C28BA180"
+},
+{
 dataProviderID:"customerid",
 location:"20,80",
 name:"customerid",
@@ -70,6 +80,7 @@ typeid:7,
 uuid:"3FE93B86-0004-4DB9-B17A-B7E52617EB35"
 },
 {
+formIndex:1,
 location:"180,140",
 name:"navc",
 onActionMethodID:"EC701414-9263-4765-BAC3-CF589E71E079",
@@ -163,6 +174,18 @@ typeid:4,
 uuid:"AF4CC777-25F5-461D-A7D7-3D4874887A6A"
 },
 {
+anchors:6,
+dataProviderID:"order_total",
+displaysTags:true,
+format:"¤#,###.00",
+location:"490,440",
+size:"120,30",
+styleClass:"label_header_3",
+text:"Total",
+typeid:7,
+uuid:"B67A22C6-ACAE-4285-8684-F6A667FAAE0E"
+},
+{
 dataProviderID:"shipaddress",
 location:"260,80",
 name:"shipaddress",
@@ -202,7 +225,7 @@ uuid:"3EFD871D-76BF-4ABD-A6AA-FF2EB7D35774"
 location:"20,350",
 name:"tabs",
 printable:false,
-size:"590,120",
+size:"590,90",
 transparent:true,
 typeid:16,
 uuid:"EA74B3A1-8EB1-4140-959A-F6609FB13A2A"

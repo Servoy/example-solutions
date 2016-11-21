@@ -9,16 +9,6 @@ encapsulation:60,
 extendsID:"E8B2A839-18F1-4D54-9A85-9CB949C9841E",
 items:[
 {
-anchors:12,
-location:"20,455",
-onActionMethodID:"61755506-5A06-49B4-8ED4-6442C0D7257E",
-onDoubleClickMethodID:"-1",
-onRightClickMethodID:"-1",
-text:"initNav",
-typeid:7,
-uuid:"43FF3E2E-CE3D-4CDD-953C-9871A4527DF2"
-},
-{
 extendsID:"D2B608CF-77BA-4F62-AD75-0E1396F217B7",
 height:480,
 typeid:19,
