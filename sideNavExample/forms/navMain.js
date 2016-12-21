@@ -70,6 +70,7 @@ function initNav(){
 			data:{}
 		}
 	];
+	
 	elements.nav.setRootMenuItems(items);
 	
 	elements.nav.addMenuItem({divider:true, styleClass:'svy-sidenav-divider'});
@@ -95,7 +96,10 @@ function initNav(){
 		elements.nav.addMenuItem({
 			id: 'category-'+categoryID,
 			text:categoryName, 
-			data:{formName:'products', filters:[{dataProvider:'categoryid',operator:'=',value:categoryID}]}
+			data:{
+					formName:'products', 
+					filters:[{dataProvider:'categoryid',operator:'=',value:categoryID}]
+				}
 		},'products');
 	}
 	
@@ -128,6 +132,7 @@ function initNav(){
  * @properties={typeid:24,uuid:"F16C6A51-60C2-4C1C-88E1-6B008E3601D0"}
  */
 function onMenuItemSelected(menuItemId, event) {
+	/** @type {{data:{formName:String,filters:Array<{dataProvider:String, operator:String, value:*}>,pk:Number}}} */
 	var item = elements.nav.getMenuItem(menuItemId);
 	if(item.data && item.data.formName){
 		navigate(item.data.formName, item.data.filters, item.data.pk);

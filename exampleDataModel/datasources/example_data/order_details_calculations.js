@@ -3,5 +3,6 @@
  */
 function subtotal()
 {
-	return quantity * unitprice * (1-discount);
+	var amt = quantity * unitprice * (1-discount);
+	return parseFloat(amt.toFixed(2));
 }

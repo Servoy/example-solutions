@@ -50,7 +50,9 @@ uuid:"AEDFC998-4ABD-4E71-8307-8A1DF3268A25"
 },
 {
 extendsID:"7B1D727F-5405-4F7D-A24E-291175E6FEA3",
-text:"Example Side-Nav",
+location:"260,40",
+size:"360,80",
+text:"Example Data Broadcast",
 typeid:7,
 uuid:"C0F8650A-0541-40E1-ABF7-224A7AAA141B"
 }

@@ -87,3 +87,31 @@ body
 {
 	color: #e77509;
 }
+.nav-tabs
+{
+	border-bottom: 2px solid #fc8f00;
+}
+.nav-tabs > li
+{
+	margin-bottom: -2px;
+}
+
+.nav-tabs > li.active > a
+{
+	color: #444;
+	font-size: 11pt;
+	font-weight: bold;
+	border-color: #fc8f00;
+	border-bottom-color: #fff;
+	border-bottom-width: 2px;
+}
+.nav-tabs > li.active > a:hover{
+	border-color: #fc8f00;
+	border-bottom-color: #fff;
+	border-bottom-width: 2px;
+}
+.nav-tabs > li.active > a:focus{
+	border-color: #fc8f00;
+	border-bottom-color: #fff;
+	border-bottom-width: 2px;
+}
