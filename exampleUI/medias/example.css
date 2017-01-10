@@ -83,6 +83,10 @@ body
 	color: #aaa;
 	transition: .25s;
 }
+.font-icon.large
+{
+	font-size: 24px;
+}
 .font-icon:HOVER
 {
 	color: #e77509;
