@@ -13,6 +13,7 @@ uuid:"2A5F4A4C-AB7B-4911-B94F-34313023357A"
 },
 {
 anchors:3,
+formIndex:1,
 location:"330,40",
 size:"290,80",
 styleClass:"banner",
