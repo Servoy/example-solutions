@@ -1,0 +1,5 @@
+dataSource:"db:/example_data/order_details",
+onInsertMethodID:"EFEEF482-9B1B-47CC-A239-EA3FD7562A17",
+onUpdateMethodID:"59D129F1-549C-425A-B02A-82F872FA7344",
+typeid:39,
+uuid:"546B0F70-1538-4587-AC7E-B846949B1B46"
