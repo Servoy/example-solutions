@@ -62,10 +62,11 @@ uuid:"84E39373-4496-474D-912F-09579017DE85"
 },
 {
 formIndex:6,
-imageMediaID:"8949CC0C-2A3E-4D6C-97A0-85E0BBF429CB",
+imageMediaID:"05A051BC-A218-4902-B23B-A04051518564",
 location:"220,90",
+mediaOptions:14,
 name:"image",
-size:"190,190",
+size:"190,200",
 typeid:7,
 uuid:"86DA4D07-4854-4E22-9392-448036DE9481"
 },
@@ -99,6 +100,7 @@ uuid:"9835B236-29CB-46DE-974A-93D2B6F9E1E8"
 },
 {
 formIndex:7,
+horizontalAlignment:0,
 labelFor:"appliedStyles",
 location:"220,70",
 name:"appliedStyles_labelc",

@@ -14,15 +14,15 @@ typeid:7,
 uuid:"0C4CFDC6-8708-445A-99C4-707612077DE6"
 },
 {
-height:370,
+height:371,
 partType:5,
 typeid:19,
-uuid:"32CC4D7A-BF7F-4D14-BD8D-A817F0DE9896"
+uuid:"0C9A0F70-B0B3-4CA0-A68D-4FC4BCDE07EB"
 },
 {
 anchors:3,
 formIndex:1,
-location:"530,210",
+location:"530,215",
 onActionMethodID:"6D5403BD-CCD7-4D33-8350-0AFE5F764B34",
 rolloverCursor:12,
 showClick:false,
@@ -90,14 +90,14 @@ y:140
 onDataChangeMethodID:"D4EF6F27-85EA-4A9F-9B4E-F152D212EB3E",
 placeholderText:"Select Customers",
 size:{
-height:32,
+height:40,
 width:540
 },
 valuelistID:"46AC7E83-19D0-40B1-B20D-D544218C7D56"
 },
 location:"20,140",
 name:"customerFilter",
-size:"540,32",
+size:"540,40",
 typeName:"servoyextra-select2tokenizer",
 typeid:47,
 uuid:"603DDA49-20B2-47CC-BA78-047DC20523AF"
@@ -155,7 +155,7 @@ uuid:"9985CD45-9006-457A-BDB5-453828D35D19"
 {
 anchors:3,
 formIndex:1,
-location:"530,140",
+location:"530,145",
 onActionMethodID:"BD5A9D70-A1BF-4104-8641-89C950870C96",
 rolloverCursor:12,
 showClick:false,
@@ -225,14 +225,14 @@ y:210
 onDataChangeMethodID:"29276E6D-58E4-42E0-86CD-EBF724658F00",
 placeholderText:"Select Customers",
 size:{
-height:32,
+height:40,
 width:540
 },
 valuelistID:"0B278E08-D559-4D27-B1F1-0A7DE73C4F9D"
 },
 location:"20,210",
 name:"employeeFilter",
-size:"540,32",
+size:"540,40",
 typeName:"servoyextra-select2tokenizer",
 typeid:47,
 uuid:"CF2FF722-4A84-4E8A-95D6-513D416F2D18"
@@ -280,7 +280,7 @@ typeid:7,
 uuid:"E9E443D4-C68E-461C-8B60-43909A200D46"
 }
 ],
-name:"ordersList",
+name:"filterOrdersList",
 navigatorID:"-1",
 scrollbars:32,
 showInMenu:true,

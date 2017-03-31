@@ -16,6 +16,7 @@ uuid:"625B514F-FC46-400F-97EC-063AD004D3CB"
 },
 {
 extendsID:"E9B6A1AC-D387-45ED-B1A3-6A919D5F927E",
+formIndex:0,
 text:null,
 typeid:7,
 uuid:"76A9651D-1B0F-4C43-BA46-673194ECA80D"
@@ -52,7 +53,7 @@ uuid:"AEDFC998-4ABD-4E71-8307-8A1DF3268A25"
 extendsID:"7B1D727F-5405-4F7D-A24E-291175E6FEA3",
 location:"260,40",
 size:"360,80",
-text:"Example Data Broadcast",
+text:"Example Navigation",
 typeid:7,
 uuid:"C0F8650A-0541-40E1-ABF7-224A7AAA141B"
 }

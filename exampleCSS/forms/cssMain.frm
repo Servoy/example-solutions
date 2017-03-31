@@ -59,7 +59,7 @@ typeid:16,
 uuid:"7D5E817B-651D-41D7-811E-0743263A57C7"
 }
 ],
-name:"main",
+name:"cssMain",
 showInMenu:true,
 typeid:3,
 uuid:"0777C495-EAFC-4521-83FC-80057C1A950E"

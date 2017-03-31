@@ -4,16 +4,6 @@
  */
 @IMPORT url("custom.css");
 
-
-/**
- * STYLE THE MAIN PAGE
- */
-body
-{
-	background-color: #444;
-	font-family: "Helvetica Neue", "Sans Serif", Arial;
-}
-
 /****************************
  * DEFAULT SERVOY SELECTORS
  */
