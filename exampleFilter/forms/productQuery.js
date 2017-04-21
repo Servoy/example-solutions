@@ -232,7 +232,8 @@ function onShow(firstShow, event) {
  * @properties={typeid:24,uuid:"B39866E5-5C08-4C68-9C1B-F9A9F2FC02F8"}
  */
 function updateChart(labels,values){
-	elements.chart.drawGraph({
+	elements.chart.setOptions({responsive: false});
+	elements.chart.setData({
 		type: 'pie',
 		data: {
 			labels: labels,
@@ -262,9 +263,6 @@ function updateChart(labels,values){
 				"#5AD3D1",
 				"#FFC870"]
 			}]
-		},
-		options: {
-			responsive: false
 		}
 	});
 }
