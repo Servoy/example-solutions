@@ -18,7 +18,7 @@
 	border: #ccc 1px solid;
 }
 
-.svy-label.my-button:HOVER
+.svy-label.my-button:hover
 {
 	background-color: #eee;
 	color: #444;

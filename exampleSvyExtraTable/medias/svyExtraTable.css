@@ -1,0 +1,33 @@
+.number {
+	text-align: right;
+}
+
+.number > div {
+	padding-right: 15px;
+}
+
+.checked:before {
+	content: "\f046";
+	font-family: "FontAwesome";
+	font-size: 16px;
+	float: left;
+	margin-right: 10px;
+}
+
+.unchecked:before {
+	content: "\f096";
+	font-family: "FontAwesome";
+	font-size: 16px;
+	float: left;
+	margin-right: 10px;
+}
+
+.quantity-high {
+	color: green;
+	font-weight: bold;
+}
+
+.quantity-low {
+	color: red;
+	font-weight: bold;
+}
