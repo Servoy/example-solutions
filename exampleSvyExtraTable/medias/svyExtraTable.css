@@ -31,3 +31,7 @@
 	color: red;
 	font-weight: bold;
 }
+
+.table-striped > tbody > tr.table-servoyextra-selected {
+    background-color: #CCCCFF;
+}

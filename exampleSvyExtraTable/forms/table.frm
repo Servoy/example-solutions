@@ -78,7 +78,8 @@ pageSize:0,
 size:{
 height:450,
 width:610
-}
+},
+styleClass:"table-striped"
 },
 location:"15,15",
 name:"table_948",
