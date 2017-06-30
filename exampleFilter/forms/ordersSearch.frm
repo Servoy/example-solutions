@@ -286,5 +286,5 @@ scrollbars:32,
 showInMenu:true,
 size:"600,370",
 typeid:3,
-uuid:"B171B174-F299-4EAD-9C33-633E29AD6AA7",
+uuid:"A37598A4-018F-4382-BB0E-CF23F15EE574",
 view:3
