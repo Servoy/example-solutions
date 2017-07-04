@@ -11,7 +11,7 @@ name:"orderdate",
 size:"140,30",
 transparent:true,
 typeid:7,
-uuid:"0C4CFDC6-8708-445A-99C4-707612077DE6"
+uuid:"0A59BE33-CEAB-4E31-8131-A756DFC4AF53"
 },
 {
 height:371,
@@ -23,7 +23,7 @@ uuid:"0C9A0F70-B0B3-4CA0-A68D-4FC4BCDE07EB"
 anchors:3,
 formIndex:1,
 location:"530,215",
-onActionMethodID:"6D5403BD-CCD7-4D33-8350-0AFE5F764B34",
+onActionMethodID:"FA4501A0-4D9D-4BD0-87EB-D2E9312AA232",
 rolloverCursor:12,
 showClick:false,
 showFocus:false,
@@ -34,17 +34,6 @@ toolTipText:"clear filter",
 transparent:true,
 typeid:7,
 uuid:"33588A97-2D09-42EA-9852-EF6C0A26552C"
-},
-{
-anchors:11,
-labelFor:"companyname",
-location:"0,310",
-name:"companyname_label",
-size:"170,20",
-text:"Customer",
-transparent:true,
-typeid:7,
-uuid:"39605254-7D40-4E4A-B9BD-14DB07F2C829"
 },
 {
 anchors:11,
@@ -87,7 +76,7 @@ location:{
 x:20,
 y:140
 },
-onDataChangeMethodID:"D4EF6F27-85EA-4A9F-9B4E-F152D212EB3E",
+onDataChangeMethodID:"29A96FDC-90C0-48F9-9768-E8CCF0D2ACB1",
 placeholderText:"Select Customers",
 size:{
 height:40,
@@ -156,7 +145,7 @@ uuid:"9985CD45-9006-457A-BDB5-453828D35D19"
 anchors:3,
 formIndex:1,
 location:"530,145",
-onActionMethodID:"BD5A9D70-A1BF-4104-8641-89C950870C96",
+onActionMethodID:"0536BC35-9B00-4F0B-94CB-C312A66D7FEB",
 rolloverCursor:12,
 showClick:false,
 showFocus:false,
@@ -206,7 +195,7 @@ displayType:5,
 format:"YYYY/MM/dd",
 location:"180,70",
 name:"endDate",
-onDataChangeMethodID:"A9869114-3ADD-4D2C-94F3-FCDDE0907FE5",
+onDataChangeMethodID:"53D27D7C-C259-4C9F-AD6C-162D4D2B41CB",
 selectOnEnter:true,
 size:"140,30",
 typeid:4,
@@ -222,7 +211,7 @@ location:{
 x:20,
 y:210
 },
-onDataChangeMethodID:"29276E6D-58E4-42E0-86CD-EBF724658F00",
+onDataChangeMethodID:"0F1039BE-DF5B-4813-9B21-6852F5B96110",
 placeholderText:"Select Customers",
 size:{
 height:40,
@@ -259,7 +248,7 @@ displayType:5,
 format:"YYYY/MM/dd",
 location:"20,70",
 name:"startDate",
-onDataChangeMethodID:"A9869114-3ADD-4D2C-94F3-FCDDE0907FE5",
+onDataChangeMethodID:"53D27D7C-C259-4C9F-AD6C-162D4D2B41CB",
 selectOnEnter:true,
 size:"140,30",
 typeid:4,
@@ -267,7 +256,7 @@ uuid:"E64EA8C3-26D6-4501-8174-222D10220405"
 },
 {
 location:"320,70",
-onActionMethodID:"A87DCD78-57A2-46A1-A85F-0D2428B5BE77",
+onActionMethodID:"36DEFCE7-8405-4EAA-AAF6-4FB4DE716195",
 rolloverCursor:12,
 showClick:false,
 showFocus:false,
@@ -278,6 +267,17 @@ toolTipText:"clear filter",
 transparent:true,
 typeid:7,
 uuid:"E9E443D4-C68E-461C-8B60-43909A200D46"
+},
+{
+anchors:11,
+labelFor:"companyname",
+location:"0,310",
+name:"companyname_label",
+size:"170,20",
+text:"Customer",
+transparent:true,
+typeid:7,
+uuid:"F31F14E9-5246-4100-8B96-55CF5B4DD0BB"
 }
 ],
 name:"filterOrdersList",

@@ -4,7 +4,7 @@
  * @private 
  * @type {Date}
  *
- * @properties={typeid:35,uuid:"6D9C3FC1-4743-49B8-9A4D-1459F85FE2BA",variableType:93}
+ * @properties={typeid:35,uuid:"5A21628D-C40F-4CF0-AB1C-88B93B6086B0",variableType:93}
  */
 var startDate = null;
 
@@ -13,7 +13,7 @@ var startDate = null;
  * @private 
  * @type {Date}
  *
- * @properties={typeid:35,uuid:"BD858580-10F6-42F9-88C4-845E47176579",variableType:93}
+ * @properties={typeid:35,uuid:"DB856376-F984-4401-B690-E0FE3A853EED",variableType:93}
  */
 var endDate = null;
 
@@ -22,7 +22,7 @@ var endDate = null;
  * @private 
  * @type {String}
  *
- * @properties={typeid:35,uuid:"C2CC716B-5313-4058-B0E6-83504F4D517E"}
+ * @properties={typeid:35,uuid:"A8456D95-AC17-4B08-907B-11E7C19C710F"}
  */
 var employeeIDs = '';
 
@@ -31,7 +31,7 @@ var employeeIDs = '';
  * 
  * @private 
  * @type {String}
- * @properties={typeid:35,uuid:"E1861E89-3644-4C79-B5E7-C393D96DC6E4"}
+ * @properties={typeid:35,uuid:"DAE9F767-FBC2-4E42-AEA0-5FD3EA5DE9CB"}
  */
 var customerIDs = '';
 
@@ -39,7 +39,7 @@ var customerIDs = '';
  * Apply filter for date range
  * 
  * @private 
- * @properties={typeid:24,uuid:"590FD950-0894-4EAB-952C-93784DF71085"}
+ * @properties={typeid:24,uuid:"30CDBAC9-867F-48EC-9AEC-BFA6C7A165EF"}
  */
 function filterDate(){
 
@@ -76,7 +76,7 @@ function filterDate(){
 /**
  * Apply the employee (IN) filter
  * @private 
- * @properties={typeid:24,uuid:"0D51C4FE-6951-491F-B0BA-317871E165BE"}
+ * @properties={typeid:24,uuid:"6D4889AB-4F06-43E9-93B3-F2C619728915"}
  */
 function filterEmployees(){
 	
@@ -104,7 +104,7 @@ function filterEmployees(){
  * Apply the customer (IN) filter
  * 
  * @private 
- * @properties={typeid:24,uuid:"F904916E-0E0D-491F-947C-03B4364D9477"}
+ * @properties={typeid:24,uuid:"7F8D8757-2054-4A86-9D9A-AEF1021A20DE"}
  */
 function filterCustomers(){
 	
@@ -135,7 +135,7 @@ function filterCustomers(){
  *
  * @private
  *
- * @properties={typeid:24,uuid:"A87DCD78-57A2-46A1-A85F-0D2428B5BE77"}
+ * @properties={typeid:24,uuid:"36DEFCE7-8405-4EAA-AAF6-4FB4DE716195"}
  */
 function clearDateFilter(event) {
 	startDate = null;
@@ -150,7 +150,7 @@ function clearDateFilter(event) {
  *
  * @private
  *
- * @properties={typeid:24,uuid:"BD5A9D70-A1BF-4104-8641-89C950870C96"}
+ * @properties={typeid:24,uuid:"0536BC35-9B00-4F0B-94CB-C312A66D7FEB"}
  */
 function clearCustomerFilter(event) {
 	customerIDs = null;
@@ -164,7 +164,7 @@ function clearCustomerFilter(event) {
  *
  * @private
  *
- * @properties={typeid:24,uuid:"6D5403BD-CCD7-4D33-8350-0AFE5F764B34"}
+ * @properties={typeid:24,uuid:"FA4501A0-4D9D-4BD0-87EB-D2E9312AA232"}
  */
 function clearEmployeeFilter(event) {
 	employeeIDs = null;
@@ -180,7 +180,7 @@ function clearEmployeeFilter(event) {
  *
  * @private
  *
- * @properties={typeid:24,uuid:"29276E6D-58E4-42E0-86CD-EBF724658F00"}
+ * @properties={typeid:24,uuid:"0F1039BE-DF5B-4813-9B21-6852F5B96110"}
  */
 function onDataChangeEmployees(oldValue, newValue, event) {
 	filterEmployees();
@@ -197,7 +197,7 @@ function onDataChangeEmployees(oldValue, newValue, event) {
  *
  * @return {boolean}
  *
- * @properties={typeid:24,uuid:"D4EF6F27-85EA-4A9F-9B4E-F152D212EB3E"}
+ * @properties={typeid:24,uuid:"29A96FDC-90C0-48F9-9768-E8CCF0D2ACB1"}
  */
 function onDataChangeCustomers(oldValue, newValue, event) {
 	filterCustomers();
@@ -215,7 +215,7 @@ function onDataChangeCustomers(oldValue, newValue, event) {
  *
  * @private
  *
- * @properties={typeid:24,uuid:"A9869114-3ADD-4D2C-94F3-FCDDE0907FE5"}
+ * @properties={typeid:24,uuid:"53D27D7C-C259-4C9F-AD6C-162D4D2B41CB"}
  */
 function onDataChangeDateFilter(oldValue, newValue, event) {
 	filterDate();
