@@ -5,7 +5,7 @@
  * @properties={typeid:24,uuid:"7E36E1D7-85FE-4BA3-B0C3-6C94327B1791"}
  */
 function getName() {
-	return "FoundSet Filters";
+	return "Basic Filtering";
 }
 
 /**
@@ -77,5 +77,5 @@ function getWebSiteURL() {
 * @properties={typeid:24,uuid:"A4CA84CA-F486-4014-BB99-7EAA5FFBBAF9"}
 */
 function getParent() {
-	return forms.apiSamples;
+	return forms.dataSamples;
 }

@@ -6,7 +6,7 @@
  * @properties={typeid:24,uuid:"EC1E0D4C-18F6-4BF1-90B6-CCED4755C890"}
  */
 function getName() {
-	return 'CSS';
+	return 'CSS Examples';
 }
 
 
@@ -18,7 +18,7 @@ function getName() {
 * @properties={typeid:24,uuid:"FEBE3BE1-543A-4EB8-A67A-1C62E6048C0E"}
 */
 function getDescription() {
-	return 'CSS Examples';
+	return 'How to do cool stuff with CSS';
 }
 
 
@@ -62,4 +62,21 @@ function getMoreInfo() {
 */
 function getSampleCode() {
 	return plugins.http.getPageData('resources/fs/exampleCSS/css/custom.css').split('\n');
+}
+
+/**
+ * @properties={typeid:24,uuid:"68E47235-C8AC-47F4-8426-636F65A1F9F7"}
+ */
+function allowFormIncludedInMenu() {
+	return true;
+}
+
+/**
+ * @public 
+ * @return {String} The sort order, i.e. 1, 1.1, 1.1.2
+ *
+ * @properties={typeid:24,uuid:"978E7D34-106B-4FF9-AB32-2095EBABA343"}
+ */
+function getSort() {
+	return '5'
 }

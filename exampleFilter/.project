@@ -6,7 +6,8 @@
 		<project>resources</project>
 		<project>bootstrapextracomponents</project>
 		<project>servoy-extra-components</project>
-		<project>svychartjs</project>
+		<project>exampleDataModel</project>
+		<project>svyMicroSamples</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
