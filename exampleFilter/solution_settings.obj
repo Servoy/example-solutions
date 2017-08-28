@@ -1,5 +1,5 @@
 firstFormID:"AA64A151-8076-4751-9904-A1B8EB2CC5B2",
 i18nDataSource:"db:/user_data/i18n_messages",
-modulesNames:"exampleDataModel,svyMicroSamples",
+modulesNames:"exampleDataModel,svyMicroSamples,exampleSharedWebPackages",
 typeid:43,
 uuid:"641F1C73-B329-4E26-BEF7-09BE1B7CB3FB"

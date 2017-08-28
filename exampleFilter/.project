@@ -4,10 +4,10 @@
 	<comment></comment>
 	<projects>
 		<project>resources</project>
-		<project>bootstrapextracomponents</project>
 		<project>servoy-extra-components</project>
 		<project>exampleDataModel</project>
 		<project>svyMicroSamples</project>
+		<project>exampleSharedWebPackages</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
