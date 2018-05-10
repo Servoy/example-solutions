@@ -102,7 +102,7 @@ anchors:11,
 displaysTags:true,
 location:"10,10",
 size:"620,50",
-styleClass:"label_header_2",
+styleClass:"label_header_0",
 text:"Header",
 typeid:7,
 uuid:"EB57F5AC-803E-4F20-85FF-89A5875CE71E"

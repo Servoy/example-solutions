@@ -3,6 +3,7 @@ extendsID:"E8B2A839-18F1-4D54-9A85-9CB949C9841E",
 items:[
 {
 extendsID:"E9B6A1AC-D387-45ED-B1A3-6A919D5F927E",
+formIndex:1,
 styleClass:"banner",
 typeid:7,
 uuid:"61CC75BD-9920-451E-9979-93615647D307"
@@ -30,6 +31,7 @@ uuid:"6F854F63-7750-47CC-820C-2953BDAEE266"
 },
 {
 extendsID:"7B1D727F-5405-4F7D-A24E-291175E6FEA3",
+formIndex:0,
 text:"Database Examples",
 typeid:7,
 uuid:"759E6463-3841-4FAA-AFEB-47E1474F25CD"
